@@ -1,0 +1,21 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar banco de dados local (SQLite)
+database/*.db
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta de cache do usuário
+*.log
+
+# IDEs
+.vscode/
+.idea/
