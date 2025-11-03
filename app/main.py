@@ -7,7 +7,7 @@ from .utils import generate_token, parse_token
 from . import cache_redis as cache_manager
 import time
 
-api_key_header = APIKeyHeader(name="Authorization", auto_error=False)
+api_key_header = APIKeyHeader(name="Authorization", auto_error=False) #hastag so para ter mudança no codigo e poder subir pro git
 
 app = FastAPI(
     title="Microsserviço de Autenticação (MS-Auth) com Rate Limit + Redis",
